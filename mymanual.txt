@@ -1,0 +1,35 @@
+새로 폴더만든후.      (강사자료...   https://github.com/memoming/memoming_gitTest )
+
+git bash 실행
+
+git init 실행하면 새로만든 폴더안에 .git파일생성
+
+git remote add origin https://github.com/hdpark-ssk/test_github
+-결과값이 아무내용없으면 정상-
+
+새로만든 폴더내 .txt하나 작성.(본 파일)
+
+git status   
+-현재의 상태 sync상태...   untracked files있음...  트래킹되어있지않음
+
+이파일을 트래킹하기
+git add .
+.이라는 명령어는 모든 파일을 트래킹하겠다는 의미
+
+git에 push를 할때 알리기위한 commit을 달아줘어야함.
+git commit -m "Hello Github"
+-파일 변경갯수와 추가된 줄수를 볼수있음
+
+commit이 됐으면 push를 해야 올릴수있다.
+git push origin master
+로그인 창이나옴
+
+
+...
+
+
+
+
+
+
+
